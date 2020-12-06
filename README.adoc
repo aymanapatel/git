@@ -1,6 +1,11 @@
 = Githook
 
 
+== Python
+https://www.youtube.com/watch?v=EvpZkdkp-v0
+
+Resolve symlink issues.
+
 == Topics
 
 1. prehooks
