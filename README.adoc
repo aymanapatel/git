@@ -22,6 +22,8 @@ https://www.youtube.com/watch?v=EvpZkdkp-v0[Youtube Link]
 
 npm has a package https://www.npmjs.com/package/husky[husky] for Git hooks.
 
+Prettier (checkstyle but for node) has npm package (https://prettier.io/docs/en/precommit.html[pretty-quick]) for use in Husky's pre-commit config.
+
 == Topics to explore
 
 === How to use `checkstyle` in pre-commit
