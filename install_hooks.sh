@@ -14,7 +14,7 @@
 LIB_DIR=submodules
 
 rm -f .git/hooks/commit-msg
-ln -s -f ../../src/commit-msg.py .git/hooks/commit-msg
+ln -s -f ../../python/commit-msg.py .git/python/commit-msg
 
 rm -rf .git/hooks/${LIB_DIR}
-ln -s -f ../../src/${LIB_DIR} .git/hooks/${LIB_DIR}
+ln -s -f ../../python/${LIB_DIR} .git/python/${LIB_DIR}

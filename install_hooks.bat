@@ -11,7 +11,7 @@
 set LIB_DIR=submodules
 
 if exist .git\hooks\commit-msg del /F .git\hooks\commit-msg
-mklink .git\hooks\commit-msg ..\..\src\commit-msg.py
+mklink .git\hooks\commit-msg ..\..\python\commit-msg.py
 
 if exist .git\hooks\%LIB_DIR% rmdir /S /Q .git\hooks\%LIB_DIR%
-mklink /D .git\hooks\%LIB_DIR% ..\..\src\%LIB_DIR%
+mklink /D .git\hooks\%LIB_DIR% ..\..\python\%LIB_DIR%
