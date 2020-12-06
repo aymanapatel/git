@@ -18,8 +18,11 @@ https://www.youtube.com/watch?v=EvpZkdkp-v0[Youtube Link]
     - `install_hooks.sh` : Run this on Mac/Linux to create symbolic Link
 
 
+== Node
 
-== Topics to exlore
+npm has a package https://www.npmjs.com/package/husky[husky] for Git hooks.
+
+== Topics to explore
 
 === How to use `checkstyle` in pre-commit
 NOTE: It is harder on researching on google.
