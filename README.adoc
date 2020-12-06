@@ -1,4 +1,8 @@
 = Githook
+Ayman Patel
+:toc:
+:font:
+
 
 == Java Gradle (`pre-commit`)
 
@@ -15,9 +19,15 @@ https://www.youtube.com/watch?v=EvpZkdkp-v0[Youtube Link]
 
 
 
-== Topics
+== Topics to exlore
 
-1. prehooks
-2. prepush
- etc
+=== How to use `checkstyle` in pre-commit
+NOTE: It is harder on researching on google.
+ 
+
+
+=== Type of githooks:
+    - prehooks
+    - prepush
+    - etc
 
