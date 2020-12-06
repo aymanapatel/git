@@ -1,10 +1,19 @@
 = Githook
 
+== Java Gradle (`pre-commit`)
 
-== Python
-https://www.youtube.com/watch?v=EvpZkdkp-v0
+Running `./gradlew clean test` in `.git/hooks/pre-commit`
 
-Resolve symlink issues.
+== Python (`commit-msg`)
+
+https://www.youtube.com/watch?v=EvpZkdkp-v0[Youtube Link]
+
+
+1. Symbolic link between `commit-msg.py` and `.git/hooks/commit-msg`
+    - `install_hooks.bat` : Run this on Windows to create symbolic Link
+    - `install_hooks.sh` : Run this on Mac/Linux to create symbolic Link
+
+
 
 == Topics
 
