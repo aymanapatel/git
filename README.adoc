@@ -1,11 +1,9 @@
 = Git and Githook
-
-> Repo to learn Git and Githook
-
 Ayman Patel
 :toc:
 :icons: font
 
+> Repo to learn Git and Githook
 
 == Git 
 
