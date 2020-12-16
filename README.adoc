@@ -1,4 +1,4 @@
-= Githook
+= Git and Githook
 Ayman Patel
 :toc:
 :icons: font
