@@ -1,8 +1,17 @@
 = Git and Githook
+
+> Repo to learn Git and Githook
+
 Ayman Patel
 :toc:
 :icons: font
 
+
+== Git 
+
+=== Sync forked repository from upstream
+
+link:git/sync-fork.adoc[Doc link]
 
 == Java Gradle (`pre-commit`)
 
