@@ -1,0 +1,23 @@
+= POSIX
+Ayman Patel
+:toc:
+:icons: font
+
+> Portable Operating System Interface
+
+== What is POSIX?
+
+Portable Operating System Interface (POSIX) is a family of standards specified by the IEEE for maintaining compatibility between OS. POSIX defines the API, along with command line shells and utility interfaces, for software compatibility with variants of Unix and other OSes.
+
+
+
+== bashisms
+
+*bashisms* are Bash-specific constructs which are not understood by other shells, such as Dash (the default system shell in Debian and Ubuntu)
+
+http://mywiki.wooledge.org/Bashism[Bashism wiki]
+
+== Gotchas
+
+
+1. Remember POSIX are https://stackoverflow.com/questions/40916071/making-unix-shell-scripts-posix-compliant[NOT bash-compliant]. We need to remove *bashisms* from bash script to make it POSIX-compliant. 
