@@ -1,6 +1,7 @@
 = Git and Githook
 Ayman Patel
 :toc:
+:toclevels: 4
 :icons: font
 
 > Repo to learn Git and Githook
