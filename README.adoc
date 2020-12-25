@@ -29,6 +29,8 @@ NOTE: Symbolic link between `python/commit-msg.py` and `.git/hooks/commit-msg`
 
 === UNIX/Linux
 
+WARNING: The githooks does not work in Ubuntu. Works on Windows though.
+
 `./install_hooks.sh` : Run this on Mac/Linux to create symbolic Link
 
 1. Git hooks are ignored by default
