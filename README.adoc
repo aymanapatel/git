@@ -11,11 +11,14 @@ Ayman Patel
 
 link:git/sync-fork.adoc[Doc link]
 
-== Java Gradle (`pre-commit`)
+
+== Githooks
+
+=== Java Gradle (`pre-commit`)
 
 Running `./gradlew clean test` in `.git/hooks/pre-commit`
 
-== Python (`commit-msg`)
+=== Python (`commit-msg`)
 
 https://www.youtube.com/watch?v=EvpZkdkp-v0[Youtube Link]
 
@@ -23,11 +26,11 @@ https://www.youtube.com/watch?v=EvpZkdkp-v0[Youtube Link]
 NOTE: Symbolic link between `python/commit-msg.py` and `.git/hooks/commit-msg`
 
 
-=== Windows
+==== Windows
 `.\install_hooks.bat` : Run this on Windows to create symbolic Link
 
 
-=== UNIX/Linux
+==== UNIX/Linux
 
 WARNING: The githooks does not work in Ubuntu. Works on Windows though.
 
@@ -41,7 +44,7 @@ WARNING: The githooks does not work in Ubuntu. Works on Windows though.
 
 
 
-== Node
+=== Node
 
 npm has a package https://www.npmjs.com/package/husky[husky] for Git hooks.
 
