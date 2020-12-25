@@ -20,16 +20,23 @@ Running `./gradlew clean test` in `.git/hooks/pre-commit`
 https://www.youtube.com/watch?v=EvpZkdkp-v0[Youtube Link]
 
 
+NOTE: Symbolic link between `python/commit-msg.py` and `.git/hooks/commit-msg`
+
+
 === Windows
+`.\install_hooks.bat` : Run this on Windows to create symbolic Link
 
 
 === UNIX/Linux
-1. Symbolic link between `python/commit-msg.py` and `.git/hooks/commit-msg`
-    - `install_hooks.bat` : Run this on Windows to create symbolic Link
-    - `install_hooks.sh` : Run this on Mac/Linux to create symbolic Link
-        - NOTE: hint: The '.git/hooks/commit-msg' hook was ignored because it's not set as executable.
-                hint: You can disable this warning with `git config advice.ignoredHook false`.
-        - Remember to do `chmod 777 install_hooks.sh` before `sudo ./install_hooks.sh`
+
+`./install_hooks.sh` : Run this on Mac/Linux to create symbolic Link
+
+1. Git hooks are ignored by default
+    - hint: The '.git/hooks/commit-msg' hook was ignored because it's not set as executable.
+    - hint: You can disable this warning with `git config advice.ignoredHook false`.
+
+2. Remember to do `chmod 777 install_hooks.sh` before `sudo ./install_hooks.sh`
+
 
 
 == Node
