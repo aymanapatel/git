@@ -1,0 +1,11 @@
+= Java Gradle pre-hook
+
+
+```
+#!/bin/sh
+#
+echo "Path is $(pwd)"
+
+cd githooks/java-gradle
+./gradlew clean build
+```
