@@ -23,9 +23,20 @@ Observe the above output carefully, you will see that there are maximum 4 people
 > Mutex is Semaphore (java class) with access of 1.
 
 ```
-Mutex is the Semaphore with an access count of 1. Consider a situation of using lockers in the bank. Usually the rule is that only one person is allowed to enter the locker room.
+//Mutex is the Semaphore with an access count of 1.
 static Semaphore semaphore = new Semaphore(1);
 ```
+
+
+
+== C/C++
+
+
+== Rust
+
+== Golang
+
+== Node.js
 
 
 As it can be seen, only one thread executes at a time here.[A : got the permit!] This is the role of a Mutex.
