@@ -12,6 +12,25 @@ Ayman Patel
 
 link:git/sync-fork.adoc[Doc link]
 
+=== `gitattributes`
+
+
+==== Code example
+
+`gitattributes`:
+
+```
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Do not use auto for everything `https://stackoverflow.com/a/38017715/9642851` The above line is overrided in subsequent lines
+*.txt text
+*.html text
+*.css text
+*.js text
+```
+
+NOTE: If `gitattributes` is not added in first commit, you need to do the following from this https://stackoverflow.com/a/40031549/9642851[link]
 
 == Githooks
 
