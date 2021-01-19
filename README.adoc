@@ -83,8 +83,6 @@ NOTE: It is harder on researching on google.
  
 == Operatin System
 
-=== Mutex and Semaphore
-
 link:operating-system/README.adoc[Link]
 
 == POSIX
