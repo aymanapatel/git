@@ -34,6 +34,12 @@ NOTE: If `gitattributes` is not added in first commit, you need to do the follow
 
 == Githooks
 
+**Type of githooks**
+
+    - prehooks
+    - prepush
+    - etc
+    
 === Java Gradle (`pre-commit`)
 
 Running `./gradlew clean test` in `.git/hooks/pre-commit`
@@ -75,10 +81,15 @@ Prettier (checkstyle but for node) has npm package (https://prettier.io/docs/en/
 === How to use `checkstyle` in pre-commit
 NOTE: It is harder on researching on google.
  
+== Operatin System
+
+=== Mutex and Semaphore
+
+link:operating-system/README.adoc[Link]
+
+== POSIX
+
+link:posix/README.adoc[Link]
 
 
-=== Type of githooks:
-    - prehooks
-    - prepush
-    - etc
 
